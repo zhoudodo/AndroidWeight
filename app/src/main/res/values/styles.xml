@@ -1,0 +1,24 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <!--引导页真实加载-->
+    <style name="SplashTheme_content" parent="AppTheme">
+        <!--欢迎页背景引用splashx_bg位图-->
+        <item name= "android:windowFullscreen">true</item> <!--全屏展示-->
+        <!--<item name="android:windowBackground">@color/colorTransparent </item>&It; !&ndash;如果不需要显示一-张图片， 就设置透明背景&ndash;&gt;-->
+        <item name="android:windowIsTranslucent">true</item> <!--设置透明属性,如果加载图片切记选择false否则为true -->
+        <!--<i tem name=' "androi d:windowBackground">@drawable/bg_ splashx_ 1</i tem>&lt; !&ndash;直接显示十张图片&ndash;&gt;-->
+        <item name="android:windowDisablePreview">false</item><!--设置过渡效果，禁用窗口的预览动画-->
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar" >false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+</resources>
